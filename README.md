@@ -2,7 +2,7 @@
 
 Projeto academico desenvolvido na disciplina de Usina de Projetos Experimentais 3 (UPX 3), com o objetivo de simular os custos, beneficios e impacto ambiental do uso de energia solar.
 
-O projeto foi apresentado em seminario academico com banner e prototipo fisico. A apresentacao recebeu avaliacao maxima, reforcando a qualidade da proposta e da demonstracao realizada.
+O projeto foi apresentado em seminario academico com banner e prototipo fisico. A apresentacao recebeu nota total, reforcando a qualidade da proposta, da documentacao e da demonstracao realizada.
 
 ## Sobre o projeto
 
@@ -11,6 +11,24 @@ A proposta surgiu a partir de um problema real: muitas pessoas tem interesse em 
 Para resolver isso, foi desenvolvido um simulador web que recebe dados de consumo mensal e valor medio da conta de luz. A partir dessas informacoes, o sistema calcula estimativas de economia, quantidade de placas solares necessarias, retorno do investimento e reducao de emissao de CO2.
 
 O trabalho tambem contou com um prototipo fisico usando Arduino para representar, de forma pratica, conceitos relacionados a geracao e monitoramento de energia.
+
+## Imagens do projeto
+
+### Banner apresentado no seminario
+
+![Banner UPX 3](assets/banner-upx3.png)
+
+### Prototipo com Arduino montado
+
+![Prototipo Arduino montado](assets/prototipo-arduino-montado-readme.jpg)
+
+### Componentes utilizados
+
+![Componentes Arduino](assets/componentes-arduino-readme.jpg)
+
+### Arduino em funcionamento
+
+![Arduino Uno ligado](assets/arduino-uno-ligado-readme.jpg)
 
 ## Objetivo
 
@@ -59,9 +77,11 @@ O Arduino foi utilizado como parte da demonstracao do funcionamento do sistema, 
 
 ```text
 .
+├── assets/
 ├── index.html
 ├── style.css
-└── script.js
+├── script.js
+└── README.md
 ```
 
 ## Como executar
